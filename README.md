@@ -1,6 +1,7 @@
 # Twitter Sentiment Analysis: BERT vs RoBERTa
 
 This repository contains the implementation and comparative analysis of two state-of-the-art transformer models, **BERT** and **RoBERTa**, for sentiment analysis on Twitter data. The goal of this project is to determine which model performs better in terms of accuracy and computational efficiency for classifying tweets into positive, negative, or neutral sentiments.
+<img width="576" alt="image" src="https://github.com/user-attachments/assets/7545a9f7-8529-4f93-8b19-270873a4040d">
 
 ## Table of Contents
 
@@ -45,6 +46,9 @@ RoBERTa has shown better results than BERT in several NLP tasks, thanks to its r
 ## Dataset
 
 The dataset consists of a collection of tweets that are labeled with their corresponding sentiment: positive, negative, or neutral. This dataset is well-suited for sentiment analysis tasks and has been preprocessed to remove noise like stop words, special characters, and URLs.
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/c0b69e2d-add7-4103-bd02-09aa0d8faf2d">
+
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/fc5c0289-dff7-4266-a98b-6270c1303286">
 
 ## Methodology
 
@@ -65,6 +69,7 @@ The dataset consists of a collection of tweets that are labeled with their corre
    - Precision and Recall
 
 ## Results
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/7d039875-b979-436f-ba8d-ae0215b806e2">
 
 Both BERT and RoBERTa performed exceptionally well on the classification task, with F1-scores around 90%. However, there were notable differences in their performance:
 
